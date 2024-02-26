@@ -1,0 +1,39 @@
+/* 
+Theme Name: Ave Jaramillo Tour
+Theme URI: www.avejaramillotour.com
+Author: Cheveniko
+Author URI: https://nicolasbaquero.com/
+Description: Tema de wordpress personalizado para la gira Maduro Irresponsable de Ave Jaramillo
+Version: 1.0
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ave-primary: #462376;
+}
+
+@font-face {
+  font-family: "KhandLight";
+  font-weight: 200;
+  src: url("./assets/fonts/khand/Khand-Light.ttf");
+}
+
+@font-face {
+  font-family: "KhandRegular";
+  font-weight: 400;
+  src: url("./assets/fonts/khand/Khand-Regular.ttf");
+}
+
+@font-face {
+  font-family: "KhandSemibold";
+  font-weight: 600;
+  src: url("./assets/fonts/khand/Khand-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("./assets/fonts/cinzel/Cinzel.ttf");
+}
