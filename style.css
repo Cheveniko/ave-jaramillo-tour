@@ -589,8 +589,25 @@ video {
   }
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .items-center {
@@ -601,21 +618,37 @@ video {
   justify-content: space-between;
 }
 
-.text-wrap {
-  text-wrap: wrap;
-}
-
-.border {
-  border-width: 1px;
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 
 .bg-ave-primary {
   background-color: var(--ave-primary);
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-\[\#5d5d5d\] {
+  --tw-text-opacity: 1;
+  color: rgb(93 93 93 / var(--tw-text-opacity));
 }
 
 .text-slate-600 {
@@ -662,7 +695,35 @@ video {
   src: url("./assets/fonts/cinzel/Cinzel.ttf");
 }
 
+.tc_seating_map_button {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: #fff;
+  background: var(--ave-primary);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.6s ease;
+}
+
+.tc_seating_map_button:hover {
+  background: black;
+  /* color: #241f21; */
+  /* border: 1px solid white; */
+}
+
 .hover\:text-red-50:hover {
   --tw-text-opacity: 1;
   color: rgb(254 242 242 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
 }

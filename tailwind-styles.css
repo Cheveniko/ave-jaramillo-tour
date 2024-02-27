@@ -37,3 +37,21 @@ Version: 1.0
   font-family: "Cinzel";
   src: url("./assets/fonts/cinzel/Cinzel.ttf");
 }
+
+.tc_seating_map_button {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: #fff;
+  background: var(--ave-primary);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.6s ease;
+}
+
+.tc_seating_map_button:hover {
+  background: black;
+  /* color: #241f21; */
+  /* border: 1px solid white; */
+}
