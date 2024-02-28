@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main>
+<main class="pt-[59px]">
 	<section>
 		<img
 			src="<?php the_field( 'event_banner_mobile' ); ?>"
@@ -39,6 +39,36 @@
 				echo $event_tickets;
 			}
 			?>
+	</section>
+	<section class="container py-8"> 
+		<h2 class="text-5xl font-semibold">Otras Funciones</h2>
+		<div class="flex gap-x-6 mt-4">
+			<div class="border text-center px-4 py-8 w-1/4 flex flex-col border-[#c2c2c2] rounded-lg">
+				<p class="text-4xl font-light">lun</p>
+				<p class="text-7xl font-bold">01</p>
+				<p class="text-2xl font-light">abril, 2024</p>
+				<p class="text-3xl font-light">Ambato</p>
+			</div>
+			<div class="border text-center px-4 py-8 w-1/4 flex flex-col border-[#c2c2c2] rounded-lg">
+				<p class="text-4xl font-light">lun</p>
+				<p class="text-7xl font-bold">01</p>
+				<p class="text-2xl font-light">abril, 2024</p>
+				<p class="text-3xl font-light">Ambato</p>
+			</div>
+			<div class="border text-center px-4 py-8 w-1/4 flex flex-col border-[#c2c2c2] rounded-lg">
+				<p class="text-4xl font-light">lun</p>
+				<p class="text-7xl font-bold">01</p>
+				<p class="text-2xl font-light">abril, 2024</p>
+				<p class="text-3xl font-light">Ambato</p>
+			</div>
+			<div class="border text-center px-4 py-8 w-1/4 flex flex-col border-[#c2c2c2] rounded-lg">
+				<p class="text-4xl font-light">lun</p>
+				<p class="text-7xl font-bold">01</p>
+				<p class="text-2xl font-light">abril, 2024</p>
+				<p class="text-3xl font-light">Ambato</p>
+			</div>
+		</div>
+
 	</section>
 </main>
 <?php get_footer(); ?>

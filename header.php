@@ -8,13 +8,13 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-		<header class="bg-ave-primary">
+		<header class="bg-ave-primary fixed z-10 w-full">
 			<nav class="container py-4 flex items-center justify-between">
 				<a href="#">
 					<img
-						src="<?php bloginfo( 'template_url' ); ?>/assets/svg/logo_smartpass.svg"
+						src="<?php bloginfo( 'template_url' ); ?>/assets/svg/logo_smartpass_horizontal.svg"
 						alt="Logo de SmartPass"
-						width="50"
+						width="100"
 					/>
 				</a>
 				<p class="text-white">Funciones</p>

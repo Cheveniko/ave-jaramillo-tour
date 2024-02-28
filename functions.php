@@ -14,3 +14,41 @@ function aveTourFeatures() {
 add_action( 'after_setup_theme', 'aveTourFeatures' );
 
 add_theme_support( 'woocommerce' );
+
+function aveTour_simplify_checkout_virtual( $fields ) {
+    
+	unset($fields['billing']['billing_company']);
+	unset($fields['billing']['billing_address_1']);
+	unset($fields['billing']['billing_address_2']);
+	unset($fields['billing']['billing_city']);
+	unset($fields['billing']['billing_postcode']);
+	unset($fields['billing']['billing_country']);
+	unset($fields['billing']['billing_state']);
+	unset($fields['billing']['billing_phone']);
+
+	add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
+	return $fields;
+
+}
+
+add_filter( 'woocommerce_checkout_fields' , 'aveTour_simplify_checkout_virtual' );
+
+function aveTour_bacs_labels($translation, $text, $domain) {
+	if ($domain == 'woocommerce') {
+		switch ($text) {
+			case 'Sort code':
+				$translation = 'TIPO DE CUENTA';
+				break;
+			case 'IBAN':
+				$translation = 'TITULAR DE LA CUENTA';
+				break;
+			case 'BIC':
+				$translation = 'RUC';
+				break;
+		}
+	}
+
+	return $translation;
+}
+
+add_filter('gettext', 'aveTour_bacs_labels', 10, 3);
