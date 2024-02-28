@@ -38,6 +38,13 @@ Version: 1.0
   src: url("./assets/fonts/cinzel/Cinzel.ttf");
 }
 
+input,
+textarea {
+  border: 1px solid black !important;
+  border-radius: 1px !important;
+  padding: 4px;
+}
+
 .tc_seating_map_button {
   display: block;
   margin: 20px auto;
@@ -54,4 +61,169 @@ Version: 1.0
   background: black;
   /* color: #241f21; */
   /* border: 1px solid white; */
+}
+
+#coupon_code {
+  width: inherit;
+}
+
+.button {
+  color: #fff !important;
+  background: var(--ave-primary) !important;
+  border-radius: 10px !important;
+  transition: 0.5s ease !important;
+}
+
+.button:hover {
+  background: black !important;
+  color: white !important;
+}
+
+.actions .button {
+  background: #cb8270 !important;
+  color: #474747 !important;
+  transition: 0.5s ease !important;
+}
+
+.actions .button:hover {
+  background: #f27f62 !important;
+}
+
+.woocommerce .cart-collaterals .cart_totals,
+.woocommerce-page .cart-collaterals .cart_totals {
+  float: none;
+  width: inherit;
+}
+
+.cart_totals h2 {
+  /* font-family: "DomaineDisplayNarrow"; */
+  font-weight: bold;
+  /* font-style: italic; */
+  font-size: 2.5rem;
+}
+
+.checkout-button {
+  display: block !important;
+  font-size: 1.25em !important;
+  padding: 1em !important;
+  text-align: center !important;
+}
+
+.woocommerce-error {
+  /* padding-top: 59px; */
+  @apply container;
+}
+
+@media screen and (max-width: 470px) {
+  #coupon_code {
+    width: 48%;
+  }
+}
+
+.owner-field-text {
+  padding: 0px;
+  width: 95% !important;
+}
+
+.fields-wrap span {
+  margin-bottom: 5px;
+}
+
+.tc_text_field {
+  float: left;
+  width: 50%;
+}
+
+.tc_checkbox_field span {
+  font-size: 1.75rem;
+}
+
+.tc_checkbox_field .description {
+  color: #616161;
+  font-size: inherit;
+  margin: 10px 0px;
+}
+
+.tickera_additional_info {
+  margin: 20px 0px;
+}
+
+.tickera_buyer_info {
+  border-top: 1px solid #e7e7e7;
+}
+
+.tickera_owner_info {
+  display: none !important;
+}
+
+.tickera_additional_info h2 {
+  font-size: 1.75rem !important;
+}
+
+.shop_table {
+  border-collapse: collapse !important;
+}
+
+.shop_table thead {
+  background: var(--ave-primary);
+  color: #fff;
+}
+
+.woocommerce-info {
+  border-top-color: #cb8270;
+  margin: 0px;
+}
+
+.woocommerce-info::before {
+  color: #cb8270;
+}
+
+.showcoupon {
+  color: #cb8270;
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background: #fff;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 10px;
+}
+
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+  background: #f2f2f2;
+}
+
+.add_payment_method #payment div.payment_box::before,
+.woocommerce-cart #payment div.payment_box::before,
+.woocommerce-checkout #payment div.payment_box::before {
+  border: 1em solid #f2f2f2;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.wc_payment_method img {
+  width: 350px;
+  height: auto;
+}
+
+#customer_details {
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 10px;
+}
+
+.place-order .button {
+  float: left !important;
+  margin-top: 8px !important;
+  padding: 20px 40px !important;
+  font-size: 125% !important;
+  border-radius: 30px !important;
+}
+
+.woocommerce-billing-fields h3 {
+  @apply text-4xl;
+  @apply font-semibold;
 }
