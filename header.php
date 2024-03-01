@@ -7,7 +7,7 @@
 
 		<?php wp_head(); ?>
 	</head>
-	<body>
+	<body class="!font-helvetica">
 		<header class="bg-ave-primary fixed z-10 w-full">
 			<nav class="container py-4 flex items-center justify-between">
 				<a href="#">
@@ -20,5 +20,3 @@
 				<p class="text-white">Funciones</p>
 			</nav>
 		</header>
-	</body>
-</html>
