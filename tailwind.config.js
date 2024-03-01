@@ -10,7 +10,7 @@ module.exports = {
         "ave-primary": "var(--ave-primary)",
       },
       fontFamily: {
-        khand: ["KhandRegular", "sans-serif"],
+        helvetica: ["HelveticaMedium", "sans-serif"],
       },
     },
   },

@@ -773,6 +773,10 @@ video {
   text-align: center;
 }
 
+.\!font-helvetica {
+  font-family: HelveticaMedium, sans-serif !important;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -854,40 +858,44 @@ video {
 }
 
 @font-face {
-  font-family: "KhandLight";
+  font-family: "HelveticaNarrow";
 
   font-weight: 200;
 
-  src: url("./assets/fonts/khand/Khand-Light.ttf");
+  src: url("./assets/fonts/Helvetica-Narrow.otf");
 }
 
 @font-face {
-  font-family: "KhandRegular";
+  font-family: "HelveticaMedium";
 
   font-weight: 400;
 
-  src: url("./assets/fonts/khand/Khand-Regular.ttf");
+  src: url("./assets/fonts/Helvetica-Medium.otf");
 }
 
 @font-face {
-  font-family: "KhandSemibold";
+  font-family: "HelveticaBold";
 
   font-weight: 600;
 
-  src: url("./assets/fonts/khand/Khand-SemiBold.ttf");
+  src: url("./assets/fonts/Helvetica-Bold.otf");
 }
 
-@font-face {
-  font-family: "Cinzel";
-
-  src: url("./assets/fonts/cinzel/Cinzel.ttf");
-}
-
-input,
+font- input,
 textarea {
   border: 1px solid black !important;
   border-radius: 1px !important;
   padding: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  font-family: HelveticaMedium, sans-serif !important;
 }
 
 .tc_seating_map_button {
