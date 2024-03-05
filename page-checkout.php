@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main>
-    <div class="container pt-[59px]">
+    <div class="container pt-[71px]">
         <?php the_content(); ?>
     </div>
 </main>

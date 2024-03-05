@@ -19,8 +19,8 @@ defined('ABSPATH') || exit;
 
 do_action('woocommerce_before_cart'); ?>
 
-<div class="container grid grid-cols-3 gap-x-8 justify-center items-center">
-	<div class="col-span-2">
+<div class="grid grid-cols-3 gap-x-8 justify-center items-center">
+	<div class="col-span-3 sm:col-span-2">
 		<form class="woocommerce-cart-form" action="<?php echo esc_url(wc_get_cart_url()); ?>" method="post">
 			<?php do_action('woocommerce_before_cart_table'); ?>
 		
@@ -182,7 +182,7 @@ do_action('woocommerce_before_cart'); ?>
 	</div>
 
 	<?php do_action('woocommerce_before_cart_collaterals'); ?>
-	<div class="col-span-1">
+	<div class="col-span-3 sm:col-span-1 pb-6">
 		<div class="cart-collaterals">
 			<?php
 			/**

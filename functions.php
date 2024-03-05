@@ -28,7 +28,6 @@ function aveTour_simplify_checkout_virtual( $fields ) {
 
 	add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
 	return $fields;
-
 }
 
 add_filter( 'woocommerce_checkout_fields' , 'aveTour_simplify_checkout_virtual' );
@@ -37,12 +36,12 @@ function aveTour_bacs_labels($translation, $text, $domain) {
 	if ($domain == 'woocommerce') {
 		switch ($text) {
 			case 'Sort code':
-				$translation = 'TIPO DE CUENTA';
+				$translation = 'Tipo de cuenta';
 				break;
 			case 'IBAN':
-				$translation = 'TITULAR DE LA CUENTA';
+				$translation = 'Titular de la cuenta';
 				break;
-			case 'BIC':
+			case 'BIC / Swift':
 				$translation = 'RUC';
 				break;
 		}
