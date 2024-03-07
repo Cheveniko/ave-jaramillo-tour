@@ -10,14 +10,14 @@
 		<h3 class="pt-8 pb-2 text-2xl font-bold text-white">Contenido</h3>
 		<div class="flex justify-start gap-x-12 text-[#e6e6e6]">
 			<div class="flex w-fit text-lg flex-col gap-y-4">
-				<a href="https://foco-estudio.com#quienes-somos" target="_blank">¿Quiénes somos?</a>
-				<a href="https://foco-estudio.com#servicios" target="_blank">Nuestros Servicios</a>
-				<a href="https://foco-estudio.com#portafolio" target="_blank">Experiencia Comprobada</a>
+				<a href="https://foco-estudio.com#quienes-somos" target="_blank" class="hover:underline">¿Quiénes somos?</a>
+				<a href="https://foco-estudio.com#servicios" target="_blank" class="hover:underline">Nuestros Servicios</a>
+				<a href="https://foco-estudio.com#portafolio" target="_blank" class="hover:underline">Experiencia Comprobada</a>
 			</div>
 			<div class="flex w-fit text-lg flex-col gap-y-4">
-				<a href="https://foco-estudio.com/campaign" target="_blank">Diferenciadores</a>
-				<a href="https://foco-estudio.com#clientes" target="_blank">Clientes</a>
-				<a href="https://foco-estudio.com#contacto" target="_blank">Contacto</a>
+				<a href="https://foco-estudio.com/campaign" target="_blank" class="hover:underline">Diferenciadores</a>
+				<a href="https://foco-estudio.com#clientes" target="_blank" class="hover:underline">Clientes</a>
+				<a href="https://foco-estudio.com#contacto" target="_blank" class="hover:underline">Contacto</a>
 			</div>
 		</div>
 		<h3 class="pt-8 pb-2 text-2xl font-bold text-white">Social</h3>

@@ -11,6 +11,9 @@
 				$args = array(
 				'post_type' => 'tc_events',
 				'post_per_page' => -1,
+				'orderby' => array(
+					'date' => 'ASC',
+					)
 				);
 				$event_query = new WP_Query( $args );
 				if ($event_query->have_posts()) {
@@ -22,7 +25,7 @@
 						?>
 						<div class="col-span-2 flex flex-col rounded-lg gap-y-4 border-2 border-ave-primary">
 							<a href="<?php the_permalink(); ?>">
-								<img src="<?php the_field('event_banner_mobile'); ?>" class="rounded-t-lg" />
+								<img src="<?php the_field('event_banner_mobile'); ?>" class="rounded-t w-full" />
 							</a>
 							<div class="px-4 flex flex-col gap-y-4">
 								<a href="<?php the_permalink(); ?>" class="text-3xl font-semibold w-fit hover:underline"><?php echo $last_word ?></a>
@@ -45,12 +48,9 @@
 						</div>
 						<?php
 					}
-				} else {
-					// no posts found
 				}
 			?>
 		</div>
 	</section>
-	<?php the_content(); ?>
 </main>
 <?php get_footer(); ?>
