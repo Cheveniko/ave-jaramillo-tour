@@ -2,8 +2,8 @@
 <main class="pt-[71px]">
 	<section class="container py-8">
 		<div class="flex flex-col gap-y-4">
-			<h1 class="text-6xl font-semibold">Maduro Irresponsable</h1>
-			<h2 class="text-5xl mb-4">Ave Jaramillo</h2>
+			<h1 class="text-5xl sm:text-6xl font-semibold">Maduro Irresponsable</h1>
+			<h2 class="text-4xl sm:text-5xl mb-4">Ave Jaramillo</h2>
 			<!-- <h3 class="text-4xl">Funciones:</h3> -->
 		</div>
 		<div class="grid grid-cols-4 gap-4">
@@ -23,7 +23,7 @@
 						$pieces = explode(' ', $title);
 						$last_word = array_pop($pieces);
 						?>
-						<div class="col-span-2 flex flex-col rounded-lg gap-y-4 border-2 border-ave-primary">
+						<div class="col-span-4 sm:col-span-2 flex flex-col rounded-lg gap-y-4 border-2 border-ave-primary">
 							<a href="<?php the_permalink(); ?>">
 								<img src="<?php the_field('event_banner_mobile'); ?>" class="rounded-t w-full" />
 							</a>
