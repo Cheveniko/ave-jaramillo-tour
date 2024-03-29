@@ -52,13 +52,6 @@
                 <li class="">
                   <a
                     class="whitespace-no-wrap block bg-gray-200 px-4 py-1.5 hover:bg-gray-400"
-                    href="<?php echo get_home_url(); ?>/event/ave-lat"
-                    >Latacunga</a
-                  >
-                </li>
-                <li class="">
-                  <a
-                    class="whitespace-no-wrap block bg-gray-200 px-4 py-1.5 hover:bg-gray-400"
                     href="<?php echo get_home_url(); ?>/event/ave-amb"
                     >Ambato</a
                   >

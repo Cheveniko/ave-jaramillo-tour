@@ -62,20 +62,20 @@
 	</section>
 	<section class="container py-8"> 
 		<h2 class="text-5xl font-semibold">Otras Funciones</h2>
-		<div class="grid grid-cols-4 grid-flow-row justify-center items-center gap-6 mt-4">
-			<a href="https://tickets.foco-estudio.com/event/ave-uio" class="border text-center px-4 py-8 col-span-4 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($quito) echo "border-ave-primary border-2" ?>">
+		<div class="grid grid-cols-3 grid-flow-row justify-between items-center gap-6 mt-4">
+			<a href="https://tickets.foco-estudio.com/event/ave-uio" class="border text-center px-4 py-8 col-span-3 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($quito) echo "border-ave-primary border-2" ?>">
 				<p class="text-4xl font-light">mie</p>
 				<p class="text-7xl font-bold">03</p>
 				<p class="text-2xl font-light">abril, 2024</p>
 				<p class="text-3xl font-light">Quito</p>
 			</a>
-			<a href="https://tickets.foco-estudio.com/event/ave-amb" class="border text-center px-4 py-8 col-span-4 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($ambato) echo "border-ave-primary border-2" ?>">
+			<a href="https://tickets.foco-estudio.com/event/ave-amb" class="border text-center px-4 py-8 col-span-3 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($ambato) echo "border-ave-primary border-2" ?>">
 				<p class="text-4xl font-light">vie</p>
 				<p class="text-7xl font-bold">05</p>
 				<p class="text-2xl font-light">abril, 2024</p>
 				<p class="text-3xl font-light">Ambato</p>
 			</a>
-			<a href="https://tickets.foco-estudio.com/event/ave-rio" class="border text-center px-4 py-8 col-span-4 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($riobamba) echo "border-ave-primary border-2" ?>">
+			<a href="https://tickets.foco-estudio.com/event/ave-rio" class="border text-center px-4 py-8 col-span-3 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($riobamba) echo "border-ave-primary border-2" ?>">
 				<p class="text-4xl font-light">sab</p>
 				<p class="text-7xl font-bold">06</p>
 				<p class="text-2xl font-light">abril, 2024</p>
