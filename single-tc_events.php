@@ -6,7 +6,6 @@
 	$ambato = false;
 	$riobamba = false;
 	if ($title == "Maduro Irresponsable Quito") $quito = true;  
-	if ($title == "Maduro Irresponsable Latacunga") $latacunga = true;  
 	if ($title == "Maduro Irresponsable Ambato") $ambato = true;  
 	if ($title == "Maduro Irresponsable Riobamba") $riobamba = true;  
 ?>
@@ -69,12 +68,6 @@
 				<p class="text-7xl font-bold">03</p>
 				<p class="text-2xl font-light">abril, 2024</p>
 				<p class="text-3xl font-light">Quito</p>
-			</a>
-			<a href="https://tickets.foco-estudio.com/event/ave-lat" class="border text-center px-4 py-8 col-span-4 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($latacunga) echo "border-ave-primary border-2" ?>">
-				<p class="text-4xl font-light">jue</p>
-				<p class="text-7xl font-bold">04</p>
-				<p class="text-2xl font-light">abril, 2024</p>
-				<p class="text-3xl font-light">Latacunga</p>
 			</a>
 			<a href="https://tickets.foco-estudio.com/event/ave-amb" class="border text-center px-4 py-8 col-span-4 sm:col-span-2 lg:col-span-1 flex flex-col border-[#c2c2c2] rounded-lg <?php if ($ambato) echo "border-ave-primary border-2" ?>">
 				<p class="text-4xl font-light">vie</p>
